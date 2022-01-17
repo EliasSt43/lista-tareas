@@ -1,0 +1,63 @@
+body{
+    font-family: 'poppins', Arial;
+    background-color:antiquewhite;
+    color:chocolate;
+}
+
+.container {
+    display: grid;
+    text-align: center;
+  }
+  
+form {
+    display: inline-block;
+    row-gap: 24px;
+    margin: 0;
+}
+
+h1{
+  text-align: center;
+}
+
+#button{
+  border: solid 2px white;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: chocolate;
+  color: white;
+  padding: 10px;
+}
+
+.input{
+  border: solid 2px white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 7px;
+}
+
+#lista-tareas{
+  font-size: 1.5rem;
+}
+
+#cont{
+ position: relative;
+ width: 15%;
+ margin-left: 42%;
+ display: flex;
+ justify-content: space-between;
+}
+
+p{
+  margin: 0;
+}
+h3{
+  margin: 0;
+}
+
+#color1{
+  color: green;
+}
+#color2{
+  color:red;
+}
